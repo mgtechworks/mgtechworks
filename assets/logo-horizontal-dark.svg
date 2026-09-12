@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 180" width="540" height="180" role="img" aria-labelledby="t">
+  <title id="t">MG Techworks — systems, automation and web development</title>
+  <g transform="translate(12 18) scale(0.565)">
+    <polygon points="220,128 174,207.67 82,207.67 36,128 82,48.33 174,48.33"
+             fill="#14B8A6" stroke="#14B8A6" stroke-width="16" stroke-linejoin="round"/>
+    <g fill="none" stroke="#0F172A" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 65 155 L 65 101 L 92 133 L 119 101 L 119 155"/>
+      <path d="M 182.09 108.91 A 27 27 0 1 0 190 128 L 173 128"/>
+    </g>
+  </g>
+  <text x="166" y="92" font-family="Inter, 'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif"
+        font-size="46" font-weight="600" letter-spacing="-0.5" fill="#14B8A6">MG<tspan fill="#F1F5F9"> Techworks</tspan></text>
+  <text x="168" y="122" font-family="Inter, 'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif"
+        font-size="15.5" font-weight="400" letter-spacing="0.9" fill="#94A3B8">Automation · Systems · Web Development</text>
+</svg>

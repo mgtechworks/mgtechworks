@@ -35,7 +35,7 @@ async function setWeatherInformation() {
 
   const url =
     "https://api.openweathermap.org/data/2.5/weather" +
-    `?q=${encodeURIComponent(CONFIG.city)}&appid=${key}&units=metric`;
+    `?q=${encodeURIComponent(CONFIG.weatherCity || CONFIG.city)}&appid=${key}&units=metric`;
 
   try {
     const res = await fetch(url);
