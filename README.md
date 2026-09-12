@@ -15,7 +15,7 @@
 
 - 🔧 I build under the **MG Techworks** umbrella — automation, systems and web
 
-- 🔭 I’m currently working on **a self-hosted home lab and automation tooling**
+- 🔭 I’m currently working on **a reporting and analytics platform for railway operations**
 
 - 🌱 I’m currently learning **TypeScript, Power BI and system design**
 
@@ -63,4 +63,4 @@
 
 ------------
 
-<p align="center">Last refresh: Saturday 12 September at 14:10 CEST</p>
+<p align="center">Last refresh: Saturday 12 September at 14:25 CEST</p>
