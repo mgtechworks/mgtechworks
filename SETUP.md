@@ -44,3 +44,21 @@ kézzel is elindíthatod. Ezután óránként magától fut.
 
 Ha a push lépés jogosultsági hibát dob:
 Settings → Actions → General → Workflow permissions → "Read and write permissions".
+
+## Megjegyzés a statisztika-képekhez
+
+A `showTopLanguages` és `showStats` alapból `false`. Ennek oka, hogy a
+github-readme-stats nyilvános példánya (github-readme-stats.vercel.app)
+HTTP 503 `DEPLOYMENT_PAUSED` hibát ad — a szolgáltatás oldalán van a gond,
+nem a beállításban. Ha egyszer újraindul, elég a két kapcsolót `true`-ra
+állítani a `config.json`-ban.
+
+## Badge ikonok
+
+A badge-ek a shields.io-t használják, az ikonok a Simple Icons készletből
+jönnek (`logo=<slug>`). Slug-lista: https://simpleicons.org/
+
+Ha egy ikon nem jelenik meg, a slug hiányzik a készletből — ilyenkor a
+shields.io némán, hibaüzenet nélkül elhagyja az ikont. A `logo` mező
+elhagyható, ekkor szöveges badge készül (így működik most a LinkedIn,
+amelynek logóját védjegy miatt eltávolították a Simple Iconsból).

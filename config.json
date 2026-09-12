@@ -9,8 +9,8 @@
   "locale": "en-GB",
   "email": "mg-techworks@proton.me",
   "showProfileViews": true,
-  "showTopLanguages": true,
-  "showStats": true,
+  "showTopLanguages": false,
+  "showStats": false,
   "showStreak": false,
   "bullets": [
     {
@@ -34,141 +34,270 @@
       "text": "How to reach me: **mg-techworks@proton.me**"
     }
   ],
-  "badges": [
-    {
-      "alt": "HTML5",
-      "icon": "libraries",
-      "label": "html5",
-      "color": "red"
-    },
-    {
-      "alt": "CSS3",
-      "icon": "libraries",
-      "label": "css3",
-      "color": "red"
-    },
-    {
-      "alt": "SASS",
-      "icon": "libraries",
-      "label": "sass",
-      "color": "red"
-    },
-    {
-      "alt": "JavaScript",
-      "icon": "typescript",
-      "label": "javascript",
-      "color": "yellow"
-    },
-    {
-      "alt": "TypeScript",
-      "icon": "typescript",
-      "label": "typescript",
-      "color": "blue"
-    },
-    {
-      "alt": "React",
-      "icon": "libraries",
-      "label": "react",
-      "color": "cyan"
-    },
-    {
-      "alt": "Angular",
-      "icon": "libraries",
-      "label": "angular",
-      "color": "red"
-    },
-    {
-      "alt": "Node.js",
-      "icon": "libraries",
-      "label": "nodejs",
-      "color": "green"
-    },
-    {
-      "alt": "Express.js",
-      "icon": "libraries",
-      "label": "expressjs",
-      "color": "green"
-    },
-    {
-      "alt": "NPM",
-      "icon": "npm",
-      "label": "npm",
-      "color": "red"
-    },
-    {
-      "alt": "Vite",
-      "icon": "libraries",
-      "label": "vite",
-      "color": "purple"
-    },
-    {
-      "alt": "Webpack",
-      "icon": "libraries",
-      "label": "webpack",
-      "color": "blue"
-    },
-    {
-      "alt": "Jest",
-      "icon": "libraries",
-      "label": "jest",
-      "color": "orange"
-    },
-    {
-      "alt": "GraphQL",
-      "icon": "graphql",
-      "label": "graphql",
-      "color": "pink"
-    },
-    {
-      "alt": "MongoDB",
-      "icon": "libraries",
-      "label": "mongodb",
-      "color": "green"
-    },
-    {
-      "alt": "MySQL",
-      "icon": "libraries",
-      "label": "mysql",
-      "color": "blue"
-    },
-    {
-      "alt": "Git",
-      "icon": "git",
-      "label": "git",
-      "color": "orange"
-    },
-    {
-      "alt": "Docker",
-      "icon": "docker",
-      "label": "docker",
-      "color": "blue"
-    },
-    {
-      "alt": "Figma",
-      "icon": "libraries",
-      "label": "figma",
-      "color": "purple"
-    },
-    {
-      "alt": "Terminal",
-      "icon": "terminal",
-      "label": "terminal",
-      "color": "grey"
-    }
-  ],
   "socials": [
     {
       "name": "GitHub",
       "url": "https://github.com/mgtechworks",
-      "logo": "GitHub",
-      "bg": "%2312100E"
+      "logo": "github",
+      "color": "181717",
+      "logoColor": "white"
     },
     {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/YOUR_HANDLE/",
-      "logo": "linkedin",
-      "bg": "%230077B5"
+      "color": "0A66C2",
+      "logoColor": "white"
     }
   ],
-  "weatherCity": "Graz"
+  "weatherCity": "Graz",
+  "badgeGroups": [
+    {
+      "title": "Things I work with",
+      "items": [
+        {
+          "alt": "HTML5",
+          "label": "HTML5",
+          "logo": "html5",
+          "color": "E34F26",
+          "logoColor": "white"
+        },
+        {
+          "alt": "CSS3",
+          "label": "CSS3",
+          "logo": "css",
+          "color": "1572B6",
+          "logoColor": "white"
+        },
+        {
+          "alt": "Sass",
+          "label": "Sass",
+          "logo": "sass",
+          "color": "CC6699",
+          "logoColor": "white"
+        },
+        {
+          "alt": "JavaScript",
+          "label": "JavaScript",
+          "logo": "javascript",
+          "color": "F7DF1E",
+          "logoColor": "black"
+        },
+        {
+          "alt": "TypeScript",
+          "label": "TypeScript",
+          "logo": "typescript",
+          "color": "3178C6",
+          "logoColor": "white"
+        },
+        {
+          "alt": "React",
+          "label": "React",
+          "logo": "react",
+          "color": "61DAFB",
+          "logoColor": "black"
+        },
+        {
+          "alt": "Angular",
+          "label": "Angular",
+          "logo": "angular",
+          "color": "DD0031",
+          "logoColor": "white"
+        },
+        {
+          "alt": "Node.js",
+          "label": "Node.js",
+          "logo": "nodedotjs",
+          "color": "339933",
+          "logoColor": "white"
+        },
+        {
+          "alt": "Express",
+          "label": "Express",
+          "logo": "express",
+          "color": "000000",
+          "logoColor": "white"
+        },
+        {
+          "alt": "npm",
+          "label": "npm",
+          "logo": "npm",
+          "color": "CB3837",
+          "logoColor": "white"
+        },
+        {
+          "alt": "Vite",
+          "label": "Vite",
+          "logo": "vite",
+          "color": "646CFF",
+          "logoColor": "white"
+        },
+        {
+          "alt": "Webpack",
+          "label": "Webpack",
+          "logo": "webpack",
+          "color": "8DD6F9",
+          "logoColor": "black"
+        },
+        {
+          "alt": "Jest",
+          "label": "Jest",
+          "logo": "jest",
+          "color": "C21325",
+          "logoColor": "white"
+        },
+        {
+          "alt": "MongoDB",
+          "label": "MongoDB",
+          "logo": "mongodb",
+          "color": "47A248",
+          "logoColor": "white"
+        },
+        {
+          "alt": "MySQL",
+          "label": "MySQL",
+          "logo": "mysql",
+          "color": "4479A1",
+          "logoColor": "white"
+        },
+        {
+          "alt": "Docker",
+          "label": "Docker",
+          "logo": "docker",
+          "color": "2496ED",
+          "logoColor": "white"
+        },
+        {
+          "alt": "Git",
+          "label": "Git",
+          "logo": "git",
+          "color": "F05032",
+          "logoColor": "white"
+        },
+        {
+          "alt": "Figma",
+          "label": "Figma",
+          "logo": "figma",
+          "color": "F24E1E",
+          "logoColor": "white"
+        }
+      ]
+    },
+    {
+      "title": "Connecting systems — APIs &amp; integrations",
+      "items": [
+        {
+          "alt": "OpenAPI",
+          "label": "OpenAPI",
+          "logo": "openapiinitiative",
+          "color": "6BA539",
+          "logoColor": "white"
+        },
+        {
+          "alt": "Swagger",
+          "label": "Swagger",
+          "logo": "swagger",
+          "color": "85EA2D",
+          "logoColor": "black"
+        },
+        {
+          "alt": "Postman",
+          "label": "Postman",
+          "logo": "postman",
+          "color": "FF6C37",
+          "logoColor": "white"
+        },
+        {
+          "alt": "Insomnia",
+          "label": "Insomnia",
+          "logo": "insomnia",
+          "color": "4000BF",
+          "logoColor": "white"
+        },
+        {
+          "alt": "JSON",
+          "label": "JSON",
+          "logo": "json",
+          "color": "000000",
+          "logoColor": "white"
+        },
+        {
+          "alt": "GraphQL",
+          "label": "GraphQL",
+          "logo": "graphql",
+          "color": "E10098",
+          "logoColor": "white"
+        },
+        {
+          "alt": "JWT",
+          "label": "JWT",
+          "logo": "jsonwebtokens",
+          "color": "000000",
+          "logoColor": "white"
+        },
+        {
+          "alt": "Socket.IO",
+          "label": "Socket.IO",
+          "logo": "socketdotio",
+          "color": "010101",
+          "logoColor": "white"
+        },
+        {
+          "alt": "RabbitMQ",
+          "label": "RabbitMQ",
+          "logo": "rabbitmq",
+          "color": "FF6600",
+          "logoColor": "white"
+        },
+        {
+          "alt": "Apache Kafka",
+          "label": "Apache_Kafka",
+          "logo": "apachekafka",
+          "color": "231F20",
+          "logoColor": "white"
+        },
+        {
+          "alt": "MQTT",
+          "label": "MQTT",
+          "logo": "mqtt",
+          "color": "660066",
+          "logoColor": "white"
+        },
+        {
+          "alt": "Redis",
+          "label": "Redis",
+          "logo": "redis",
+          "color": "DC382D",
+          "logoColor": "white"
+        },
+        {
+          "alt": "NGINX",
+          "label": "NGINX",
+          "logo": "nginx",
+          "color": "009639",
+          "logoColor": "white"
+        },
+        {
+          "alt": "n8n",
+          "label": "n8n",
+          "logo": "n8n",
+          "color": "EA4B71",
+          "logoColor": "white"
+        },
+        {
+          "alt": "Node-RED",
+          "label": "Node--RED",
+          "logo": "nodered",
+          "color": "8F0000",
+          "logoColor": "white"
+        },
+        {
+          "alt": "cURL",
+          "label": "cURL",
+          "logo": "curl",
+          "color": "073551",
+          "logoColor": "white"
+        }
+      ]
+    }
+  ]
 }

@@ -19,23 +19,28 @@
 - {{icon}} {{{text}}}
 
 {{/bullets}}
-
-<h3>Things I work with</h3>
+{{#showTopLanguages}}
+<p>
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username={{username}}&show_icons=true&locale=en&layout=compact" alt="{{username}} top languages" />
+</p>
+{{/showTopLanguages}}
+{{#showStats}}
+<p>
+    <img align="center" src="https://github-readme-stats.vercel.app/api/?username={{username}}&show_icons=true&locale=en" alt="{{username}} stats" />
+</p>
+{{/showStats}}
+{{#badgeGroups}}
+<h3>{{{title}}}</h3>
 
 <p>
-{{#showTopLanguages}}    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username={{username}}&show_icons=true&locale=en&layout=compact" alt="{{username}} top languages" />
-{{/showTopLanguages}}{{#showStats}}    <img align="center" src="https://github-readme-stats.vercel.app/api/?username={{username}}&show_icons=true&locale=en" alt="{{username}} stats" />
-{{/showStats}}{{#showStreak}}    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user={{username}}" alt="{{username}} streak" />
-{{/showStreak}}</p>
+{{#items}}    <img alt="{{alt}}" src="https://img.shields.io/badge/{{label}}-{{color}}?style=for-the-badge&amp;logo={{logo}}&amp;logoColor={{logoColor}}" />
+{{/items}}</p>
 
-<p>
-{{#badges}}    <img alt="{{alt}}" src="https://badgen.net/badge/icon/{{label}}?icon={{icon}}&label&color={{color}}" />
-{{/badges}}</p>
-
+{{/badgeGroups}}
 <h3>Where to find me</h3>
 
 <p>
-{{#socials}}    <a href="{{{url}}}" target="_blank"><img alt="{{name}}" src="https://img.shields.io/badge/{{name}}-{{bg}}.svg?&style=for-the-badge&logo={{logo}}&logoColor=white" /></a>
+{{#socials}}    <a href="{{{url}}}" target="_blank"><img alt="{{name}}" src="https://img.shields.io/badge/{{name}}-{{color}}?style=for-the-badge{{#logo}}&amp;logo={{logo}}{{/logo}}&amp;logoColor={{logoColor}}" /></a>
 {{/socials}}</p>
 
 ------------
