@@ -21,7 +21,7 @@
 
 - 💬 Ask me about **automation, sysadmin, dashboards and web development**
 
-- 📫 How to reach me: **te@pelda.hu**
+- 📫 How to reach me: **mg-techworks@proton.me**
 
 
 <h3>Things I work with</h3>
@@ -63,4 +63,4 @@
 
 ------------
 
-<p align="center">Last refresh: Saturday 12 September at 13:44 CEST</p>
+<p align="center">Last refresh: Saturday 12 September at 14:10 CEST</p>

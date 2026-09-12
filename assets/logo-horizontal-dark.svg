@@ -9,7 +9,7 @@
     </g>
   </g>
   <text x="166" y="92" font-family="Inter, 'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif"
-        font-size="46" font-weight="600" letter-spacing="-0.5" fill="#14B8A6">MG<tspan fill="#F1F5F9"> Techworks</tspan></text>
+        font-size="46" font-weight="600" letter-spacing="-0.5" fill="#14B8A6">MG<tspan fill="#F1F5F9" dx="13">Techworks</tspan></text>
   <text x="168" y="122" font-family="Inter, 'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif"
         font-size="15.5" font-weight="400" letter-spacing="0.9" fill="#94A3B8">Automation · Systems · Web Development</text>
 </svg>
