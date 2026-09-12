@@ -2,7 +2,7 @@
   "username": "mgtechworks",
   "displayName": "Gyula Mihalykovics",
   "brand": "MG Techworks",
-  "role": "developer focused on reporting, interfaces and automation",
+  "role": "full-stack developer, maker and systems integrator",
   "fromCountry": "Hungary",
   "city": "Graz, Austria",
   "timeZone": "Europe/Vienna",
@@ -15,19 +15,19 @@
   "bullets": [
     {
       "icon": "🔧",
-      "text": "I build under the **MG Techworks** umbrella — automation, systems and web"
+      "text": "I build under the **MG Techworks** umbrella — web, 3D, automation and systems"
     },
     {
       "icon": "🔭",
-      "text": "I’m currently working on **a reporting and analytics platform for railway operations**"
+      "text": "I’m currently working on **a reporting platform for railway operations** and **an ordering and delivery platform for hospitality**"
     },
     {
       "icon": "🌱",
-      "text": "I’m currently learning **Power BI, DAX and API design**"
+      "text": "I’m currently learning **WebGL, Power BI and API design**"
     },
     {
       "icon": "💬",
-      "text": "Ask me about **PHP, Excel automation, reporting and system interfaces**"
+      "text": "Ask me about **web development, 3D printing, POS systems, reporting and automation**"
     },
     {
       "icon": "📫",
@@ -52,22 +52,8 @@
   "weatherCity": "Graz",
   "badgeGroups": [
     {
-      "title": "Things I work with",
+      "title": "Frontend",
       "items": [
-        {
-          "alt": "PHP",
-          "label": "PHP",
-          "color": "777BB4",
-          "logoColor": "white",
-          "logo": "php"
-        },
-        {
-          "alt": "JavaScript",
-          "label": "JavaScript",
-          "color": "F7DF1E",
-          "logoColor": "black",
-          "logo": "javascript"
-        },
         {
           "alt": "HTML5",
           "label": "HTML5",
@@ -90,11 +76,32 @@
           "logo": "sass"
         },
         {
+          "alt": "Tailwind CSS",
+          "label": "Tailwind_CSS",
+          "color": "06B6D4",
+          "logoColor": "white",
+          "logo": "tailwindcss"
+        },
+        {
           "alt": "Bootstrap",
           "label": "Bootstrap",
           "color": "7952B3",
           "logoColor": "white",
           "logo": "bootstrap"
+        },
+        {
+          "alt": "JavaScript",
+          "label": "JavaScript",
+          "color": "F7DF1E",
+          "logoColor": "black",
+          "logo": "javascript"
+        },
+        {
+          "alt": "TypeScript",
+          "label": "TypeScript",
+          "color": "3178C6",
+          "logoColor": "white",
+          "logo": "typescript"
         },
         {
           "alt": "jQuery",
@@ -104,6 +111,53 @@
           "logo": "jquery"
         },
         {
+          "alt": "Alpine.js",
+          "label": "Alpine.js",
+          "color": "8BC0D0",
+          "logoColor": "black",
+          "logo": "alpinedotjs"
+        },
+        {
+          "alt": "Vite",
+          "label": "Vite",
+          "color": "646CFF",
+          "logoColor": "white",
+          "logo": "vite"
+        }
+      ]
+    },
+    {
+      "title": "Backend &amp; databases",
+      "items": [
+        {
+          "alt": "PHP",
+          "label": "PHP",
+          "color": "777BB4",
+          "logoColor": "white",
+          "logo": "php"
+        },
+        {
+          "alt": "Laravel",
+          "label": "Laravel",
+          "color": "FF2D20",
+          "logoColor": "white",
+          "logo": "laravel"
+        },
+        {
+          "alt": "Symfony",
+          "label": "Symfony",
+          "color": "000000",
+          "logoColor": "white",
+          "logo": "symfony"
+        },
+        {
+          "alt": "Composer",
+          "label": "Composer",
+          "color": "885630",
+          "logoColor": "white",
+          "logo": "composer"
+        },
+        {
           "alt": "Node.js",
           "label": "Node.js",
           "color": "339933",
@@ -111,24 +165,12 @@
           "logo": "nodedotjs"
         },
         {
-          "alt": "npm",
-          "label": "npm",
-          "color": "CB3837",
+          "alt": "Express",
+          "label": "Express",
+          "color": "000000",
           "logoColor": "white",
-          "logo": "npm"
+          "logo": "express"
         },
-        {
-          "alt": "Git",
-          "label": "Git",
-          "color": "F05032",
-          "logoColor": "white",
-          "logo": "git"
-        }
-      ]
-    },
-    {
-      "title": "Databases &amp; reporting",
-      "items": [
         {
           "alt": "MySQL",
           "label": "MySQL",
@@ -149,6 +191,289 @@
           "color": "336791",
           "logoColor": "white"
         },
+        {
+          "alt": "Redis",
+          "label": "Redis",
+          "color": "DC382D",
+          "logoColor": "white",
+          "logo": "redis"
+        }
+      ]
+    },
+    {
+      "title": "3D, animation &amp; interactive web",
+      "items": [
+        {
+          "alt": "Three.js",
+          "label": "Three.js",
+          "color": "000000",
+          "logoColor": "white",
+          "logo": "threedotjs"
+        },
+        {
+          "alt": "WebGL",
+          "label": "WebGL",
+          "color": "990000",
+          "logoColor": "white",
+          "logo": "webgl"
+        },
+        {
+          "alt": "Babylon.js",
+          "label": "Babylon.js",
+          "color": "BB464B",
+          "logoColor": "white",
+          "logo": "babylondotjs"
+        },
+        {
+          "alt": "GSAP",
+          "label": "GSAP",
+          "color": "88CE02",
+          "logoColor": "black",
+          "logo": "greensock"
+        },
+        {
+          "alt": "Lottie",
+          "label": "Lottie",
+          "color": "00DDB3",
+          "logoColor": "black",
+          "logo": "lottiefiles"
+        },
+        {
+          "alt": "SVG animation",
+          "label": "SVG_Animation",
+          "color": "FFB13B",
+          "logoColor": "black",
+          "logo": "svg"
+        },
+        {
+          "alt": "Canvas API",
+          "label": "Canvas_API",
+          "color": "E34F26",
+          "logoColor": "white"
+        },
+        {
+          "alt": "Figma",
+          "label": "Figma",
+          "color": "F24E1E",
+          "logoColor": "white",
+          "logo": "figma"
+        },
+        {
+          "alt": "Inkscape",
+          "label": "Inkscape",
+          "color": "000000",
+          "logoColor": "white",
+          "logo": "inkscape"
+        },
+        {
+          "alt": "GIMP",
+          "label": "GIMP",
+          "color": "5C5543",
+          "logoColor": "white",
+          "logo": "gimp"
+        }
+      ]
+    },
+    {
+      "title": "3D printing &amp; hardware",
+      "items": [
+        {
+          "alt": "Blender",
+          "label": "Blender",
+          "color": "F5792A",
+          "logoColor": "white",
+          "logo": "blender"
+        },
+        {
+          "alt": "FreeCAD",
+          "label": "FreeCAD",
+          "color": "729FCF",
+          "logoColor": "white",
+          "logo": "freecad"
+        },
+        {
+          "alt": "OpenSCAD",
+          "label": "OpenSCAD",
+          "color": "000000",
+          "logoColor": "white",
+          "logo": "openscad"
+        },
+        {
+          "alt": "Tinkercad",
+          "label": "Tinkercad",
+          "color": "1477D1",
+          "logoColor": "white",
+          "logo": "tinkercad"
+        },
+        {
+          "alt": "SketchUp",
+          "label": "SketchUp",
+          "color": "005F9E",
+          "logoColor": "white",
+          "logo": "sketchup"
+        },
+        {
+          "alt": "Cura",
+          "label": "Cura",
+          "color": "1F66B5",
+          "logoColor": "white"
+        },
+        {
+          "alt": "PrusaSlicer",
+          "label": "PrusaSlicer",
+          "color": "FF6B00",
+          "logoColor": "white"
+        },
+        {
+          "alt": "Bambu Lab",
+          "label": "Bambu_Lab",
+          "color": "00AE42",
+          "logoColor": "white",
+          "logo": "bambulab"
+        },
+        {
+          "alt": "Creality",
+          "label": "Creality",
+          "color": "000000",
+          "logoColor": "white",
+          "logo": "creality"
+        },
+        {
+          "alt": "OctoPrint",
+          "label": "OctoPrint",
+          "color": "13C100",
+          "logoColor": "white",
+          "logo": "octoprint"
+        },
+        {
+          "alt": "Printables",
+          "label": "Printables",
+          "color": "FA6831",
+          "logoColor": "white",
+          "logo": "printables"
+        },
+        {
+          "alt": "G-code",
+          "label": "G--code",
+          "color": "4B8BBE",
+          "logoColor": "white"
+        },
+        {
+          "alt": "Raspberry Pi",
+          "label": "Raspberry_Pi",
+          "color": "A22846",
+          "logoColor": "white",
+          "logo": "raspberrypi"
+        },
+        {
+          "alt": "Arduino",
+          "label": "Arduino",
+          "color": "00979D",
+          "logoColor": "white",
+          "logo": "arduino"
+        }
+      ]
+    },
+    {
+      "title": "Hospitality, POS &amp; ordering platforms",
+      "items": [
+        {
+          "alt": "POS systems",
+          "label": "POS_Systems",
+          "color": "0F766E",
+          "logoColor": "white"
+        },
+        {
+          "alt": "Kassensysteme",
+          "label": "Kassensysteme",
+          "color": "115E59",
+          "logoColor": "white"
+        },
+        {
+          "alt": "Ordering platform",
+          "label": "Ordering_Platform",
+          "color": "0D9488",
+          "logoColor": "white"
+        },
+        {
+          "alt": "QR ordering",
+          "label": "QR_Ordering",
+          "color": "1F2937",
+          "logoColor": "white"
+        },
+        {
+          "alt": "Delivery &amp; logistics",
+          "label": "Delivery_Logistics",
+          "color": "F97316",
+          "logoColor": "white"
+        },
+        {
+          "alt": "ESC/POS printing",
+          "label": "ESC_POS",
+          "color": "374151",
+          "logoColor": "white"
+        },
+        {
+          "alt": "Stripe",
+          "label": "Stripe",
+          "color": "635BFF",
+          "logoColor": "white",
+          "logo": "stripe"
+        },
+        {
+          "alt": "PayPal",
+          "label": "PayPal",
+          "color": "00457C",
+          "logoColor": "white",
+          "logo": "paypal"
+        },
+        {
+          "alt": "Square",
+          "label": "Square",
+          "color": "3E4348",
+          "logoColor": "white",
+          "logo": "square"
+        },
+        {
+          "alt": "WooCommerce",
+          "label": "WooCommerce",
+          "color": "96588A",
+          "logoColor": "white",
+          "logo": "woocommerce"
+        },
+        {
+          "alt": "Shopify",
+          "label": "Shopify",
+          "color": "7AB55C",
+          "logoColor": "white",
+          "logo": "shopify"
+        },
+        {
+          "alt": "WordPress",
+          "label": "WordPress",
+          "color": "21759B",
+          "logoColor": "white",
+          "logo": "wordpress"
+        },
+        {
+          "alt": "Epson",
+          "label": "Epson",
+          "color": "003399",
+          "logoColor": "white",
+          "logo": "epson"
+        },
+        {
+          "alt": "Zebra",
+          "label": "Zebra",
+          "color": "0072CE",
+          "logoColor": "white",
+          "logo": "zebratechnologies"
+        }
+      ]
+    },
+    {
+      "title": "Reporting &amp; business intelligence",
+      "items": [
         {
           "alt": "Microsoft Excel",
           "label": "Microsoft_Excel",
@@ -252,11 +577,11 @@
           "logo": "ansible"
         },
         {
-          "alt": "GitHub Actions",
-          "label": "GitHub_Actions",
-          "color": "2088FF",
+          "alt": "Home Assistant",
+          "label": "Home_Assistant",
+          "color": "18BCF2",
           "logoColor": "white",
-          "logo": "githubactions"
+          "logo": "homeassistant"
         },
         {
           "alt": "n8n",
@@ -285,6 +610,20 @@
           "color": "D22128",
           "logoColor": "white",
           "logo": "apache"
+        },
+        {
+          "alt": "Git",
+          "label": "Git",
+          "color": "F05032",
+          "logoColor": "white",
+          "logo": "git"
+        },
+        {
+          "alt": "GitHub Actions",
+          "label": "GitHub_Actions",
+          "color": "2088FF",
+          "logoColor": "white",
+          "logo": "githubactions"
         }
       ]
     },
@@ -350,11 +689,17 @@
           "logoColor": "white"
         },
         {
+          "alt": "MQTT",
+          "label": "MQTT",
+          "color": "660066",
+          "logoColor": "white",
+          "logo": "mqtt"
+        },
+        {
           "alt": "cURL",
           "label": "cURL",
           "color": "073551",
-          "logoColor": "white",
-          "logo": "curl"
+          "logoColor": "white"
         }
       ]
     }

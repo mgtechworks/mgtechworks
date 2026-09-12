@@ -62,3 +62,20 @@ Ha egy ikon nem jelenik meg, a slug hiányzik a készletből — ilyenkor a
 shields.io némán, hibaüzenet nélkül elhagyja az ikont. A `logo` mező
 elhagyható, ekkor szöveges badge készül (így működik most a LinkedIn,
 amelynek logóját védjegy miatt eltávolították a Simple Iconsból).
+
+## OpenWeatherMap kulcs aktiválása
+
+A kulcs a git-ignorált `.env` fájlban van (soha ne kerüljön commitba).
+
+Egy frissen igényelt kulcs **nem működik azonnal** — az OpenWeatherMap oldalán
+akár 1-2 óráig `401 Invalid API key` hibát ad, amíg aktiválódik. A generátor
+ezt kezeli: ilyenkor kihagyja az időjárás-mondatot, a README hibátlanul elkészül.
+
+Teszteléshez:
+
+    node index.js
+
+Ha a kimenetben nincs figyelmeztetés, és a README-ben megjelenik a hőmérséklet,
+a kulcs aktív. Ekkor vedd fel GitHub secretként is:
+Settings -> Secrets and variables -> Actions -> New repository secret
+Név: OPEN_WEATHER_MAP_KEY
