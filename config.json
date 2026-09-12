@@ -1,0 +1,39 @@
+{
+  "username": "YOUR_GITHUB_USERNAME",
+  "displayName": "A Te Neved",
+  "role": "Full-Stack developer",
+  "fromCountry": "Hungary",
+  "city": "Budapest",
+  "timeZone": "Europe/Budapest",
+  "locale": "en-GB",
+  "email": "te@pelda.hu",
+
+  "showProfileViews": true,
+  "showTopLanguages": true,
+  "showStats": true,
+  "showStreak": false,
+
+  "bullets": [
+    { "icon": "🔭", "text": "I’m currently working on **a side project I actually finish**" },
+    { "icon": "🌱", "text": "I’m currently learning **TypeScript, Rust and system design**" },
+    { "icon": "👯", "text": "I’m looking to collaborate on **open-source tooling**" },
+    { "icon": "💬", "text": "Ask me about **JavaScript, CSS, testing and CI**" },
+    { "icon": "📫", "text": "How to reach me: **te@pelda.hu**" }
+  ],
+
+  "badges": [
+    { "alt": "HTML5",      "icon": "libraries",  "label": "html5",      "color": "red" },
+    { "alt": "CSS3",       "icon": "libraries",  "label": "css3",       "color": "red" },
+    { "alt": "JavaScript", "icon": "typescript", "label": "javascript", "color": "red" },
+    { "alt": "TypeScript", "icon": "typescript", "label": "typescript", "color": "red" },
+    { "alt": "Node.js",    "icon": "libraries",  "label": "nodejs",     "color": "purple" },
+    { "alt": "React",      "icon": "libraries",  "label": "react",      "color": "red" },
+    { "alt": "Git",        "icon": "git",        "label": "git",        "color": "blue" },
+    { "alt": "Docker",     "icon": "docker",     "label": "docker",     "color": "blue" }
+  ],
+
+  "socials": [
+    { "name": "GitHub",   "url": "https://github.com/YOUR_GITHUB_USERNAME",    "logo": "GitHub",   "bg": "%2312100E" },
+    { "name": "LinkedIn", "url": "https://www.linkedin.com/in/YOUR_HANDLE/",   "logo": "linkedin", "bg": "%230077B5" }
+  ]
+}

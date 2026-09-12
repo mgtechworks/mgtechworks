@@ -1,0 +1,14 @@
+{
+  "name": "profile-readme",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A self-updating README.md for my GitHub profile, built with GitHub Actions and Mustache.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "mustache": "^4.2.0"
+  }
+}
