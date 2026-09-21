@@ -9,7 +9,7 @@
     Hi, and Welcome! I'm <b>Gyula Mihalykovics</b>, a passionate full-stack developer, maker and systems integrator from <b>Hungary</b>,
     currently living in <b>Graz, Austria</b>, where the weather is
     <img id="wicon" src="https://openweathermap.org/img/wn/03n@2x.png" alt="Weather icon" width="28" />
-    scattered clouds and the current temperature is 14°C. Also there is wind with 13 km/h speed.<br />
+    scattered clouds and the current temperature is 13°C.<br />
     <img src="https://komarev.com/ghpvc/?username=mgtechworks&label=Profile%20views&color=0e75b6&style=flat" alt="mgtechworks" />
 </p>
 
@@ -165,4 +165,4 @@
 
 ------------
 
-<p align="center">Last refresh: Monday 21 September at 21:05 CEST</p>
+<p align="center">Last refresh: Monday 21 September at 22:07 CEST</p>
