@@ -8,8 +8,8 @@
 <p style="line-height:36px">
     Hi, and Welcome! I'm <b>Gyula Mihalykovics</b>, a passionate full-stack developer, maker and systems integrator from <b>Hungary</b>,
     currently living in <b>Graz, Austria</b>, where the weather is
-    <img id="wicon" src="https://openweathermap.org/img/wn/04n@2x.png" alt="Weather icon" width="28" />
-    overcast clouds and the current temperature is 7°C.<br />
+    <img id="wicon" src="https://openweathermap.org/img/wn/10n@2x.png" alt="Weather icon" width="28" />
+    light rain and the current temperature is 8°C. Also there is wind with 14 km/h speed.<br />
     <img src="https://komarev.com/ghpvc/?username=mgtechworks&label=Profile%20views&color=0e75b6&style=flat" alt="mgtechworks" />
 </p>
 
@@ -165,4 +165,4 @@
 
 ------------
 
-<p align="center">Last refresh: Sunday 25 October at 19:01 CET</p>
+<p align="center">Last refresh: Sunday 25 October at 22:20 CET</p>
